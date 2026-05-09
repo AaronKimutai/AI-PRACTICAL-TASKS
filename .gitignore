@@ -1,0 +1,40 @@
+# --- Virtual Environments ---
+# This is the most important one! Never upload your 100MB+ venv.
+venv/
+env/
+ENV/
+.env
+
+# --- Python Clutter ---
+# Compiled files and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- AI & Data ---
+# If you eventually save models or large datasets
+*.h5
+*.keras
+*.pth
+*.pkl
+dataset/
+data/
+
+# --- IDE Specific ---
+# Settings files from VS Code or PyCharm
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Prolog (Task 3) ---
+# Any temporary files Prolog might create
+*.pl~
+*.qlf
